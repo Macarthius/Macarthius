@@ -1,0 +1,219 @@
+/* This website template was created by: Macarthur Stepp */
+
+/* BKG */
+body {
+    background-color: #111111;
+}
+
+
+
+/* Header stlyes */
+header {
+    background-color: #992222;  
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header #logo {
+    background-color: #FFFFFF;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    width: 25%;
+    float: left;
+}
+
+header #head {
+    width: 75%;
+}
+
+
+
+/* Navigation styles */
+nav {
+    background-color: #333333;
+    padding: 0.1em;
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.1em; 
+}
+
+nav li a {
+    background-color: #777777;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FFFFFF;
+
+    text-decoration: none;
+    display: inline-block;
+
+    width: 8em;
+    
+    padding: 0.5em;
+}
+
+nav li a:hover {
+    background-color: #555555;
+}
+
+
+
+/* Main Styles */
+main {
+    background-color: #FFFFFF;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+main div {
+    background-color: #333333;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main ul{
+    padding: 1em;
+    list-style: none;
+}
+
+main #slider {
+    padding: 1em;
+    max-width: 60em;
+}
+
+main #slider img {
+    width: 100%;
+    height: 10em;
+    max-height: 40em;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main #about {
+    padding: 1em;
+    max-width: 60em;
+}
+
+main #ty {
+    padding-top: 5em;
+    text-align: center;
+}
+
+main #menu:hover {
+    background-color: #555555;
+}
+
+main #menu {
+    background-color: #777777;
+    padding-top: .5em;
+    min-width: 17em;
+    width: 40%;
+    height: 20em;
+}
+
+
+
+main #menu img {
+    min-width: 8em;
+    width: 80%;
+    height: 70%;
+    margin-bottom: 2em;
+}
+
+main a {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 20em;
+}
+
+table, th, td {
+	border: solid 0.1em #000000;
+	border-collapse: collapse;
+	padding: 1em;
+}
+
+table th {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, textarea { 
+    display: block;
+	margin-bottom: 1em;
+}
+
+
+
+/*Footer Styles */
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: right;
+}
+
+footer h3 {
+    margin-bottom: .5em;
+}
+
+footer #social {
+    display: inline;
+}
+
+footer img {
+    width: 3em;
+}
+
+@media (min-width: 350px) {
+    main #slider img {
+        height: 12em;
+    }
+}
+
+@media (min-width: 500px) {
+    main #slider img {
+        height: 14em;
+    }
+}
+
+@media (min-width: 700px) {
+    main #slider img {
+        height: 20em;
+    }
+}
+
+@media (min-width: 800px) {
+    main #slider img {
+        height: 30em;
+    }
+}

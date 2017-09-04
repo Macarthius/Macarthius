@@ -1,7 +1,82 @@
 <!DOCTYPE html>
-<html>
+<!-- This website template was created by: Macarthur Stepp -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/frstyles.css">
+	<title>Le Expensziv</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Le Expensziv, the best place to enjoy the taste of exquisite French cuisine.">
+	<meta name="keywords" content="French, Restaurant, Food, Cuisine, Good">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>Test.</p>
+
+	<div id="container">
+
+		<!-- Website name and logo -->
+		<header>
+		<img id="logo" src="images/logo.png" alt="Le Expensziv logo">
+		<img id="head" src="images/header.jpg" alt="Le Expensziv header">
+		</header>
+		
+		<!-- Navigation -->
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="work.html">Work For Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main Content -->
+		<main>
+			<div id="slider">
+				<img class="slide" src="images/bread.jpg" alt="picture of bread">
+				<img class="slide" src="images/duck.jpg" alt="picture of duck food thing">
+				<img class="slide" src="images/stew.jpg" alt="picture of stew">
+				
+			<script>
+				var slideIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("slide");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+					}
+					slideIndex++;
+					if (slideIndex > x.length) {slideIndex = 1} 
+					x[slideIndex-1].style.display = "block"; 
+					setTimeout(carousel, 4000);
+				}
+			</script>
+			</div>
+			
+			<div id="about">
+					<p>Our goal is to provide gourmet French cuisine to those who desire it the most.
+						We hire only the best to provide you with and experience you won't forget. Our
+						prices may seem a bit high, but we assure you that you get what you pay for or
+						we will refund your entire meal. Come find us at our one and only location in 
+						Someplace Onearth.
+					</p>
+			</div>		
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<div id="social">
+				<h3>Social Media Links</h3>
+				<a href="http://www.facebook.com"><img id="fblogo" src="images/fblogo.png" alt="Facebook Page"></a>
+				<a href="http://www.twitter.com"><img id="twlogo" src="images/twlogo.png" alt="Twitter Page"></a>
+				<a href="http://www.google.com"><img id="gplogo" src="images/gplogo.png" alt="Google + Page"></a>
+			</div>		
+			<p>&copy; Copyright 2016. All Rights Reserved.</p>
+		</footer>
+
+	</div>
+	
 </body>
 </html>
